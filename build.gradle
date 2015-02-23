@@ -12,10 +12,10 @@ buildscript {
     }
 }
 
-apply plugin: 'android-reporting'
-
 allprojects {
     repositories {
         jcenter()
     }
 }
+
+apply plugin: 'android-reporting'
